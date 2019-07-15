@@ -1,0 +1,14 @@
+import ReactDOM from 'react-dom'
+import React from 'react' // necessario importar quando estiver utilizando tags Html
+ no javascript
+
+const elemento = document.getElementById('root')
+ReactDOM.render('ola react', elemento)
+
+JSX � importante pois pode manipular os documentos html atraves de um javascript, 
+economizando codigo.
+
+existem dois tipos de componentes
+
+componentes baseados em fun�oes
+componentes baseado em classes
